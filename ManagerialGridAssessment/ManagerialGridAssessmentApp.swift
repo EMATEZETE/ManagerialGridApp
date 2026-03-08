@@ -1,10 +1,3 @@
-//
-//  ManagerialGridAssessmentApp.swift
-//  ManagerialGridAssessment
-//
-//  Created by Matthias Pröschel on 02.03.26.
-//
-
 import SwiftUI
 
 @main

@@ -6,8 +6,21 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5243DF4D2F55B2170047C5EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243DF4C2F55B2170047C5EC /* ContentView.swift */; };
+		5243DF592F55B9A40047C5EC /* AssessmentModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243DF582F55B50B0047C5EC /* AssessmentModels.swift */; };
+		5243DF5D2F57664B0047C5EC /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243DF5C2F57664A0047C5EC /* QuestionView.swift */; };
+		5243DF5F2F578EB00047C5EC /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243DF5E2F578EAF0047C5EC /* ResultView.swift */; };
+		5243DF692F58879A0047C5EC /* AppBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243DF682F5887960047C5EC /* AppBackground.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		5243DF472F55B2170047C5EC /* ManagerialGridAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManagerialGridAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5243DF4C2F55B2170047C5EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5243DF582F55B50B0047C5EC /* AssessmentModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentModels.swift; sourceTree = "<group>"; };
+		5243DF5C2F57664A0047C5EC /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		5243DF5E2F578EAF0047C5EC /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		5243DF682F5887960047C5EC /* AppBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +45,8 @@
 		5243DF3E2F55B2170047C5EC = {
 			isa = PBXGroup;
 			children = (
+				5243DF572F55B4D90047C5EC /* Views */,
+				5243DF562F55B2FA0047C5EC /* Logik */,
 				5243DF492F55B2170047C5EC /* ManagerialGridAssessment */,
 				5243DF482F55B2170047C5EC /* Products */,
 			);
@@ -43,6 +58,25 @@
 				5243DF472F55B2170047C5EC /* ManagerialGridAssessment.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5243DF562F55B2FA0047C5EC /* Logik */ = {
+			isa = PBXGroup;
+			children = (
+				5243DF582F55B50B0047C5EC /* AssessmentModels.swift */,
+			);
+			path = Logik;
+			sourceTree = "<group>";
+		};
+		5243DF572F55B4D90047C5EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5243DF682F5887960047C5EC /* AppBackground.swift */,
+				5243DF5E2F578EAF0047C5EC /* ResultView.swift */,
+				5243DF4C2F55B2170047C5EC /* ContentView.swift */,
+				5243DF5C2F57664A0047C5EC /* QuestionView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5243DF5D2F57664B0047C5EC /* QuestionView.swift in Sources */,
+				5243DF4D2F55B2170047C5EC /* ContentView.swift in Sources */,
+				5243DF692F58879A0047C5EC /* AppBackground.swift in Sources */,
+				5243DF592F55B9A40047C5EC /* AssessmentModels.swift in Sources */,
+				5243DF5F2F578EB00047C5EC /* ResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
